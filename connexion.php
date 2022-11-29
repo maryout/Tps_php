@@ -1,6 +1,6 @@
 <?php
 //echo "test";
-//1 connexion à la base
+//premier connexion 
 $serveur="localhost";
 $login="root";
 $password="";
