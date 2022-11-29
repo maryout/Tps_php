@@ -1,5 +1,5 @@
 <?php
-
+//testici 
 //echo "test";
 //1 connexion à la base
 require 'connexion.php';
