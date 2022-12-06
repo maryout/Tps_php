@@ -31,7 +31,7 @@ $query = $con->query("SELECT * FROM employes");
             }	
             echo '
                 <td>
-                    <a href="editEmplA.php?code='.$employe['code'].'"><i class="fa fa-pencil" style="font-size:24px"></i></a>
+                    <a href="editEmplA.php?code='.$employe['code'].'"><i class="fa fa-edit" style="font-size:24px"></i></a>
                     <a href="#deleteModal" class="delete" data-toggle="modal" data-id='.$employe["code"].'><i class="fa fa-trash-o" style="font-size:24px"></i></a>
                 </td>
             ';	
